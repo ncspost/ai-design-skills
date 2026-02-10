@@ -1,11 +1,11 @@
 ---
-name: context-gathering
+name: gather-context
 description: Gather context from Slack, Notion, and Mintlify to build a comprehensive understanding of a design problem before planning begins. Use when starting a new design project, kicking off a feature, or needing background on an existing product area.
 allowed-tools: Read, Grep, Glob, mcp__07bc7ee9-cc70-4371-92d2-9b3338dcd3e0__slack_search_public, mcp__12a0bdf2-908a-4f15-a52b-6cb37e85ca94__notion-search, mcp__12a0bdf2-908a-4f15-a52b-6cb37e85ca94__notion-fetch
 argument-hint: [feature or product area to research]
 ---
 
-# Context Gathering
+# Gather Context
 
 Collect and synthesize relevant context from across the product ecosystem to inform design planning.
 

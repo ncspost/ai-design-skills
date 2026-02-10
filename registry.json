@@ -1,0 +1,389 @@
+{
+  "generatedAt": "2026-02-10T16:55:22.773Z",
+  "skills": [
+    {
+      "id": "audit-design-system",
+      "name": "Audit Design System",
+      "description": "Audit the existing design system to identify available components, patterns, and gaps relevant to a planned feature. Use when starting design work to understand what can be reused versus what needs to be created.",
+      "category": "Planning",
+      "categoryOrder": 1,
+      "path": ".claude/skills/1-planning/audit-design-system"
+    },
+    {
+      "id": "decompose-requirements",
+      "name": "Decompose Requirements",
+      "description": "Break down a feature request or product brief into structured, actionable design requirements with clear scope. Use when a feature brief needs to be turned into specific design tasks and Linear issues.",
+      "category": "Planning",
+      "categoryOrder": 1,
+      "path": ".claude/skills/1-planning/decompose-requirements"
+    },
+    {
+      "id": "draft-acceptance-criteria",
+      "name": "Draft Acceptance Criteria",
+      "description": "Draft detailed acceptance criteria for design tasks and attach them to existing Linear issues. Use when design issues need clear definitions of done before work begins.",
+      "category": "Planning",
+      "categoryOrder": 1,
+      "path": ".claude/skills/1-planning/draft-acceptance-criteria"
+    },
+    {
+      "id": "gather-context",
+      "name": "Gather Context",
+      "description": "Gather context from Slack, Notion, and Mintlify to build a comprehensive understanding of a design problem before planning begins. Use when starting a new design project, kicking off a feature, or needing background on an existing product area.",
+      "category": "Planning",
+      "categoryOrder": 1,
+      "path": ".claude/skills/1-planning/gather-context"
+    },
+    {
+      "id": "generate-user-stories",
+      "name": "Generate User Stories",
+      "description": "Generate well-structured user stories from feature requirements and create them as Linear issues. Use when requirements need to be expressed as user stories for the team to work from.",
+      "category": "Planning",
+      "categoryOrder": 1,
+      "path": ".claude/skills/1-planning/generate-user-stories"
+    },
+    {
+      "id": "identify-dependencies-risks",
+      "name": "Identify Dependencies & Risks",
+      "description": "Identify dependencies, risks, and blockers for a design project by analyzing Linear issues, Slack discussions, and project context. Use when planning a new feature to surface potential problems early.",
+      "category": "Planning",
+      "categoryOrder": 1,
+      "path": ".claude/skills/1-planning/identify-dependencies-risks"
+    },
+    {
+      "id": "analyze-competitors",
+      "name": "Analyze Competitors & Benchmark",
+      "description": "Analyze competitor products and industry benchmarks for a specific feature area, documenting patterns and opportunities. Use when exploring how others solve similar design problems before starting exploration.",
+      "category": "Research",
+      "categoryOrder": 2,
+      "path": ".claude/skills/2-research/analyze-competitors"
+    },
+    {
+      "id": "audit-current-ux",
+      "name": "Audit Current UX State",
+      "description": "Audit the current UX state of a product area by analyzing existing Figma designs and identifying usability issues, inconsistencies, and improvement opportunities. Use when you need to understand the baseline experience before redesigning.",
+      "category": "Research",
+      "categoryOrder": 2,
+      "path": ".claude/skills/2-research/audit-current-ux"
+    },
+    {
+      "id": "generate-insights",
+      "name": "Generate Insights",
+      "description": "Synthesize research findings from multiple sources into structured design insights and recommendations. Use after gathering feedback and competitive analysis to crystallize findings into actionable direction.",
+      "category": "Research",
+      "categoryOrder": 2,
+      "path": ".claude/skills/2-research/generate-insights"
+    },
+    {
+      "id": "generate-opportunity-solution-trees",
+      "name": "Generate Opportunity Solution Trees",
+      "description": "Generate an Opportunity Solution Tree from research insights, mapping outcomes to opportunities to potential solutions. Use when translating research findings into a structured exploration framework.",
+      "category": "Research",
+      "categoryOrder": 2,
+      "path": ".claude/skills/2-research/generate-opportunity-solution-trees"
+    },
+    {
+      "id": "identify-assumptions",
+      "name": "Identify & Prioritize Assumptions",
+      "description": "Identify and prioritize assumptions embedded in design plans, then propose lightweight experiments to validate the riskiest ones. Use when a design direction has been chosen but key assumptions haven't been tested.",
+      "category": "Research",
+      "categoryOrder": 2,
+      "path": ".claude/skills/2-research/identify-assumptions"
+    },
+    {
+      "id": "synthesize-user-feedback",
+      "name": "Synthesize User Feedback",
+      "description": "Synthesize user feedback from Slack channels and Linear issues into actionable design insights. Use when you need to understand what users are saying about a feature area before designing solutions.",
+      "category": "Research",
+      "categoryOrder": 2,
+      "path": ".claude/skills/2-research/synthesize-user-feedback"
+    },
+    {
+      "id": "critique-designs",
+      "name": "Critique Designs & Analyze Trade-offs",
+      "description": "Critique existing designs and analyze trade-offs between different approaches, providing structured feedback grounded in design principles. Use when evaluating concepts before deciding which direction to pursue.",
+      "category": "Exploration",
+      "categoryOrder": 3,
+      "path": ".claude/skills/3-exploration/critique-designs"
+    },
+    {
+      "id": "draft-copy-content",
+      "name": "Draft Copy & Content",
+      "description": "Draft UI copy and content for a feature, including headings, labels, descriptions, empty states, error messages, and onboarding text. Use when designs need real copy instead of placeholder text.",
+      "category": "Exploration",
+      "categoryOrder": 3,
+      "path": ".claude/skills/3-exploration/draft-copy-content"
+    },
+    {
+      "id": "explore-layouts",
+      "name": "Explore Layouts",
+      "description": "Explore different layout compositions for a specific screen or component on the Pencil canvas, testing how content and UI elements can be arranged. Use when you need to compare spatial arrangements before committing to a structure.",
+      "category": "Exploration",
+      "categoryOrder": 3,
+      "path": ".claude/skills/3-exploration/explore-layouts"
+    },
+    {
+      "id": "explore-workflows",
+      "name": "Explore Workflows",
+      "description": "Explore and map multi-step user workflows on the Pencil canvas, visualising the sequence of screens and decision points a user moves through. Use when designing flows that span multiple screens or states.",
+      "category": "Exploration",
+      "categoryOrder": 3,
+      "path": ".claude/skills/3-exploration/explore-workflows"
+    },
+    {
+      "id": "generate-rapid-concepts",
+      "name": "Generate Rapid Concepts",
+      "description": "Generate multiple rapid design concepts for a feature using the Pencil canvas, exploring different visual directions and layout approaches. Use when you need to quickly explore the solution space before committing to a direction.",
+      "category": "Exploration",
+      "categoryOrder": 3,
+      "path": ".claude/skills/3-exploration/generate-rapid-concepts"
+    },
+    {
+      "id": "match-patterns-to-design-system",
+      "name": "Match Patterns to Design System",
+      "description": "Map design concepts to existing design system components and patterns, identifying what can be reused and what needs to be created. Use when moving from exploration to implementation to maximise reuse.",
+      "category": "Exploration",
+      "categoryOrder": 3,
+      "path": ".claude/skills/3-exploration/match-patterns-to-design-system"
+    },
+    {
+      "id": "check-design-consistency",
+      "name": "Check Design Consistency",
+      "description": "Check a design for consistency against the design system and established product patterns, flagging deviations in spacing, colour, typography, and component usage. Use before handoff to catch inconsistencies.",
+      "category": "Refinement",
+      "categoryOrder": 4,
+      "path": ".claude/skills/4-refinement/check-design-consistency"
+    },
+    {
+      "id": "generate-copy-for-all-states",
+      "name": "Generate Copy for All States",
+      "description": "Generate UI copy for every state of a feature — loading, empty, error, success, partial, and edge cases. Use after edge case identification to ensure every state has clear, helpful copy.",
+      "category": "Refinement",
+      "categoryOrder": 4,
+      "path": ".claude/skills/4-refinement/generate-copy-for-all-states"
+    },
+    {
+      "id": "ideate-micro-interactions",
+      "name": "Ideate Micro-interactions & Animations",
+      "description": "Ideate micro-interactions and animation specifications for a feature, defining motion timing, easing, and purpose for key transitions. Use when refining the feel of an experience beyond static screens.",
+      "category": "Refinement",
+      "categoryOrder": 4,
+      "path": ".claude/skills/4-refinement/ideate-micro-interactions"
+    },
+    {
+      "id": "identify-edge-cases",
+      "name": "Identify Edge Cases & States",
+      "description": "Systematically identify edge cases, error states, and boundary conditions for a design, ensuring every scenario is accounted for. Use when a design direction has been chosen and needs to be stress-tested before handoff.",
+      "category": "Refinement",
+      "categoryOrder": 4,
+      "path": ".claude/skills/4-refinement/identify-edge-cases"
+    },
+    {
+      "id": "review-accessibility",
+      "name": "Review Accessibility",
+      "description": "Review a design for accessibility compliance, checking colour contrast, touch targets, screen reader compatibility, and WCAG guidelines. Use when preparing designs for refinement or handoff.",
+      "category": "Refinement",
+      "categoryOrder": 4,
+      "path": ".claude/skills/4-refinement/review-accessibility"
+    },
+    {
+      "id": "suggest-responsive-adaptations",
+      "name": "Suggest Responsive Adaptations",
+      "description": "Suggest how a design should adapt across breakpoints (mobile, tablet, desktop), identifying layout changes, content priority shifts, and interaction model differences. Use when a desktop design needs to work on smaller screens.",
+      "category": "Refinement",
+      "categoryOrder": 4,
+      "path": ".claude/skills/4-refinement/suggest-responsive-adaptations"
+    },
+    {
+      "id": "break-down-dev-tasks",
+      "name": "Break Down Dev Tasks & Write Tickets",
+      "description": "Break down a design into granular development tasks and create Linear tickets with clear acceptance criteria. Use when handing off an approved design to the engineering team.",
+      "category": "Handoff",
+      "categoryOrder": 5,
+      "path": ".claude/skills/5-handoff/break-down-dev-tasks"
+    },
+    {
+      "id": "document-behaviors",
+      "name": "Document Behaviours",
+      "description": "Document interactive behaviours, state transitions, and business logic for a feature so developers understand the dynamic aspects that static designs don't capture. Use when designs involve complex interactions.",
+      "category": "Handoff",
+      "categoryOrder": 5,
+      "path": ".claude/skills/5-handoff/document-behaviors"
+    },
+    {
+      "id": "extract-design-tokens",
+      "name": "Extract Design Tokens",
+      "description": "Extract design tokens from Figma designs and .pen files, generating structured token files for colours, typography, spacing, and shadows. Use when syncing design decisions to the codebase token system.",
+      "category": "Handoff",
+      "categoryOrder": 5,
+      "path": ".claude/skills/5-handoff/extract-design-tokens"
+    },
+    {
+      "id": "generate-component-specs",
+      "name": "Generate Component Specs",
+      "description": "Generate detailed component specifications from a design, including props, variants, tokens, and behaviour documentation for developer handoff. Use when developers need a clear spec to implement a component.",
+      "category": "Handoff",
+      "categoryOrder": 5,
+      "path": ".claude/skills/5-handoff/generate-component-specs"
+    },
+    {
+      "id": "generate-storybook-stories",
+      "name": "Generate Storybook Stories",
+      "description": "Generate Storybook stories for components based on design specs, covering all variants, states, and edge cases. Use when building or updating component documentation alongside implementation.",
+      "category": "Handoff",
+      "categoryOrder": 5,
+      "path": ".claude/skills/5-handoff/generate-storybook-stories"
+    },
+    {
+      "id": "translate-design-to-code",
+      "name": "Translate Design to Code",
+      "description": "Translate a Figma design into production-ready code using design system components and Code Connect mappings. Use when moving from approved designs to implementation.",
+      "category": "Handoff",
+      "categoryOrder": 5,
+      "path": ".claude/skills/5-handoff/translate-design-to-code"
+    },
+    {
+      "id": "analyze-visual-regressions",
+      "name": "Analyze Visual Regressions",
+      "description": "Analyze visual regression test results, identifying meaningful changes from noise, and documenting which regressions need fixes vs. which are expected changes. Use when visual regression tests flag differences that need triage.",
+      "category": "QA",
+      "categoryOrder": 6,
+      "path": ".claude/skills/6-qa/analyze-visual-regressions"
+    },
+    {
+      "id": "audit-accessibility-qa",
+      "name": "Audit Accessibility (QA)",
+      "description": "Audit the implemented UI for accessibility compliance, testing keyboard navigation, screen reader output, colour contrast, and WCAG conformance. Use when verifying accessibility of the built product.",
+      "category": "QA",
+      "categoryOrder": 6,
+      "path": ".claude/skills/6-qa/audit-accessibility-qa"
+    },
+    {
+      "id": "compare-design-fidelity",
+      "name": "Compare Design Fidelity",
+      "description": "Compare the implemented UI against the original Figma design, identifying pixel-level differences in layout, spacing, colour, and typography. Use when verifying that the build matches the approved design.",
+      "category": "QA",
+      "categoryOrder": 6,
+      "path": ".claude/skills/6-qa/compare-design-fidelity"
+    },
+    {
+      "id": "generate-automated-fixes",
+      "name": "Generate Automated Fixes",
+      "description": "Generate code fixes for QA issues found during design fidelity checks, accessibility audits, and edge case verification. Use when QA findings need quick resolution without a full development cycle.",
+      "category": "QA",
+      "categoryOrder": 6,
+      "path": ".claude/skills/6-qa/generate-automated-fixes"
+    },
+    {
+      "id": "generate-qa-checklists",
+      "name": "Generate QA Checklists",
+      "description": "Generate comprehensive QA checklists for a feature covering functional, visual, accessibility, and cross-browser testing. Use when preparing for a QA pass before release.",
+      "category": "QA",
+      "categoryOrder": 6,
+      "path": ".claude/skills/6-qa/generate-qa-checklists"
+    },
+    {
+      "id": "verify-edge-cases",
+      "name": "Verify Edge Cases",
+      "description": "Verify that all identified edge cases from the design phase are properly handled in the implementation, testing boundary conditions and unusual states. Use during QA to ensure edge case coverage.",
+      "category": "QA",
+      "categoryOrder": 6,
+      "path": ".claude/skills/6-qa/verify-edge-cases"
+    },
+    {
+      "id": "assess-migrate-shadcn-updates",
+      "name": "Assess & Migrate shadcn Updates",
+      "description": "Assess new shadcn/ui releases for relevant updates, breaking changes, and new components, then plan and execute migration. Use when shadcn/ui publishes updates that may affect the design system.",
+      "category": "Design System",
+      "categoryOrder": 7,
+      "path": ".claude/skills/7-design-system/assess-migrate-shadcn-updates"
+    },
+    {
+      "id": "audit-components-detect-redundancy",
+      "name": "Audit Components & Detect Redundancy",
+      "description": "Audit the design system component library for redundant, overlapping, or underused components, identifying consolidation opportunities. Use during periodic design system health checks.",
+      "category": "Design System",
+      "categoryOrder": 7,
+      "path": ".claude/skills/7-design-system/audit-components-detect-redundancy"
+    },
+    {
+      "id": "detect-patterns-across-codebase",
+      "name": "Detect Patterns Across Codebase",
+      "description": "Detect recurring UI patterns across the codebase that could be promoted to shared design system components, identifying opportunities to reduce duplication and improve consistency. Use when the codebase has grown and patterns have emerged organically.",
+      "category": "Design System",
+      "categoryOrder": 7,
+      "path": ".claude/skills/7-design-system/detect-patterns-across-codebase"
+    },
+    {
+      "id": "generate-maintain-documentation",
+      "name": "Generate & Maintain Documentation",
+      "description": "Generate and maintain design system documentation — component usage guidelines, design principles, pattern libraries, and decision logs. Use when documentation is missing, outdated, or needs standardising.",
+      "category": "Design System",
+      "categoryOrder": 7,
+      "path": ".claude/skills/7-design-system/generate-maintain-documentation"
+    },
+    {
+      "id": "manage-design-tokens",
+      "name": "Manage Design Tokens",
+      "description": "Manage design tokens across design files and code — adding, updating, deprecating, and syncing tokens between Figma, .pen files, and the codebase. Use when tokens need to change or when design-code token drift is detected.",
+      "category": "Design System",
+      "categoryOrder": 7,
+      "path": ".claude/skills/7-design-system/manage-design-tokens"
+    },
+    {
+      "id": "plan-deprecations",
+      "name": "Plan Deprecations",
+      "description": "Plan and communicate component deprecations in the design system, including migration paths, timelines, and team notifications. Use when a component needs to be retired in favour of a replacement.",
+      "category": "Design System",
+      "categoryOrder": 7,
+      "path": ".claude/skills/7-design-system/plan-deprecations"
+    },
+    {
+      "id": "analyze-workflow-patterns",
+      "name": "Analyze Workflow Patterns",
+      "description": "Analyze workflow patterns across completed projects and sprints to identify bottlenecks, inefficiencies, and improvement opportunities in the design-to-dev process. Use when conducting periodic process reviews.",
+      "category": "Continuous Improvement",
+      "categoryOrder": 8,
+      "path": ".claude/skills/8-continuous-improvement/analyze-workflow-patterns"
+    },
+    {
+      "id": "create-refine-skills",
+      "name": "Create & Refine Skills",
+      "description": "Create new Claude skills or refine existing ones based on workflow analysis, team feedback, and repeated task patterns. Use when a new reusable skill is needed or an existing skill isn't performing well.",
+      "category": "Continuous Improvement",
+      "categoryOrder": 8,
+      "path": ".claude/skills/8-continuous-improvement/create-refine-skills"
+    },
+    {
+      "id": "facilitate-retrospectives",
+      "name": "Facilitate Retrospectives",
+      "description": "Facilitate design retrospectives by gathering feedback, identifying patterns, and producing structured action items. Use at the end of a sprint, project, or design phase to capture learnings.",
+      "category": "Continuous Improvement",
+      "categoryOrder": 8,
+      "path": ".claude/skills/8-continuous-improvement/facilitate-retrospectives"
+    },
+    {
+      "id": "identify-design-debt",
+      "name": "Identify Design Debt",
+      "description": "Identify and catalogue design debt across the product — inconsistencies, outdated patterns, accessibility gaps, and technical shortcuts that degrade the user experience over time. Use during periodic product health reviews.",
+      "category": "Continuous Improvement",
+      "categoryOrder": 8,
+      "path": ".claude/skills/8-continuous-improvement/identify-design-debt"
+    },
+    {
+      "id": "improve-templates-automation",
+      "name": "Improve Templates & Automation",
+      "description": "Identify opportunities to create templates, automate repetitive steps, and streamline recurring design workflow tasks. Use when the same type of work keeps requiring the same manual setup.",
+      "category": "Continuous Improvement",
+      "categoryOrder": 8,
+      "path": ".claude/skills/8-continuous-improvement/improve-templates-automation"
+    },
+    {
+      "id": "track-report-metrics",
+      "name": "Track & Report Metrics",
+      "description": "Track and report on design process metrics — cycle time, quality scores, design system coverage, accessibility compliance, and team velocity. Use when generating periodic reports for stakeholders.",
+      "category": "Continuous Improvement",
+      "categoryOrder": 8,
+      "path": ".claude/skills/8-continuous-improvement/track-report-metrics"
+    }
+  ]
+}

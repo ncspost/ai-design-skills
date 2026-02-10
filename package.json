@@ -1,0 +1,9 @@
+{
+  "name": "ai-design-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI design skills marketplace and registry",
+  "scripts": {
+    "build:manifest": "node scripts/build-manifest.js"
+  }
+}
