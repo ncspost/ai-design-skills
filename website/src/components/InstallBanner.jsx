@@ -14,10 +14,10 @@ export default function InstallBanner() {
       </p>
       <div className="flex items-center gap-2">
         <code className="flex-1 text-sm bg-gray-950 text-gray-300 px-4 py-2.5 rounded-lg border border-gray-800 truncate">
-          git clone https://github.com/nkkko/ai-design-skills.git && cd ai-design-skills && {INSTALL_ALL_CMD}
+          git clone https://github.com/ncspost/ai-design-skills.git && cd ai-design-skills && {INSTALL_ALL_CMD}
         </code>
         <CopyButton
-          text={`git clone https://github.com/nkkko/ai-design-skills.git && cd ai-design-skills && ${INSTALL_ALL_CMD}`}
+          text={`git clone https://github.com/ncspost/ai-design-skills.git && cd ai-design-skills && ${INSTALL_ALL_CMD}`}
         />
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 Structured skills for AI design workflows—planning, research, exploration, refinement, handoff, QA, design system, and continuous improvement.
 
-**[Browse the Marketplace](https://nkkko.github.io/ai-design-skills/)**
+**[Browse the Marketplace](https://ncspost.github.io/ai-design-skills/)**
 
 ## Install
 
@@ -10,7 +10,7 @@ Clone the repo and use the install script to copy skills into `~/.claude/skills`
 
 ```bash
 # Install all 48 skills
-git clone https://github.com/nkkko/ai-design-skills.git
+git clone https://github.com/ncspost/ai-design-skills.git
 cd ai-design-skills
 ./scripts/install.sh --all
 

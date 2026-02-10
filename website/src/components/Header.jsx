@@ -11,7 +11,7 @@ export default function Header() {
           </p>
         </div>
         <a
-          href="https://github.com/nkkko/ai-design-skills"
+          href="https://github.com/ncspost/ai-design-skills"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-gray-400 hover:text-white transition-colors hidden sm:block"
